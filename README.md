@@ -1,4 +1,4 @@
-# SwiftUI-BlendMode-Playground
+# SwiftUI BlendMode Playground
 
 Sample app that provides a way to interact and visualize how SwiftUI BlendMode between views interacts.
 
