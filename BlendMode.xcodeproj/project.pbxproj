@@ -56,6 +56,8 @@
 		C35428982B43C52800BF277B /* Helpers */ = {
 			isa = PBXGroup;
 			children = (
+				C378E9FD2B3C93B4003129B4 /* Assets.xcassets */,
+				C378E9F92B3C93B3003129B4 /* BlendModeApp.swift */,
 				C378EA0A2B3CD976003129B4 /* BlendModeList.swift */,
 				C35428992B43C53600BF277B /* StarShape.swift */,
 				C396D1682B44F422000596EA /* Extensions.swift */,
@@ -82,13 +84,11 @@
 		C378E9F82B3C93B3003129B4 /* BlendMode */ = {
 			isa = PBXGroup;
 			children = (
+				C378EA0C2B3CE4D2003129B4 /* Playground */,
+				C35428952B437C9C00BF277B /* Example */,
 				C396D1642B44E2CF000596EA /* Gradient */,
 				C35428982B43C52800BF277B /* Helpers */,
-				C35428952B437C9C00BF277B /* Example */,
-				C378EA0C2B3CE4D2003129B4 /* Playground */,
-				C378E9F92B3C93B3003129B4 /* BlendModeApp.swift */,
 				C378E9FB2B3C93B3003129B4 /* ContentView.swift */,
-				C378E9FD2B3C93B4003129B4 /* Assets.xcassets */,
 				C378E9FF2B3C93B4003129B4 /* BlendMode.entitlements */,
 				C378EA002B3C93B4003129B4 /* Preview Content */,
 			);

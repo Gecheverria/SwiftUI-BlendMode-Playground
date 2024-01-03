@@ -55,6 +55,7 @@ struct ContentView: View {
                             .bold()
                         
                         Text(demoBlendMode.description)
+                            .padding(.bottom)
                     }
                 }
             }
@@ -70,7 +71,7 @@ struct ContentView: View {
     @ViewBuilder
     func viewFor(destination: Destination) -> some View {
         switch destination {
-        case .circles:
+        case .playground:
             BlendModeView()
         case .examples:
             Examples()
@@ -85,7 +86,7 @@ struct ContentView: View {
 }
 
 enum Destination: String, CaseIterable {
-    case circles
+    case playground
     case examples
     case colorGradient = "Color Gradient"
 }

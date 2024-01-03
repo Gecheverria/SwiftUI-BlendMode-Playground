@@ -44,8 +44,8 @@ struct GradientView: View {
     // MARK: - Subviews
     private var definedGradient: some View {
         VStack(alignment: .leading) {
-            ColorPicker("First Circle Color", selection: $firstColor)
-            ColorPicker("First Circle Color", selection: $secondColor)
+            ColorPicker("Leading Color", selection: $firstColor)
+            ColorPicker("Trailing Color", selection: $secondColor)
                 .padding(.bottom)
             
             Toggle("Enable blending: \(gradientBlendMode.name)", isOn: $blendGradients)
